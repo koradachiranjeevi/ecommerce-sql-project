@@ -1,0 +1,911 @@
+payment_id,order_id,payment_method,amount
+1,1,Bank Transfer,681.66
+2,2,Credit Card,2945.51
+3,3,Store Credit,1417.93
+4,4,Credit Card,2745.54
+5,5,Store Credit,2379.64
+6,7,Store Credit,2917.15
+7,8,Store Credit,1871.54
+8,9,Bank Transfer,2420.35
+9,10,Credit Card,3336.85
+10,11,Debit Card,862.19
+11,12,Credit Card,3027.3
+12,13,Bank Transfer,3546.48
+13,14,Store Credit,2573.24
+14,15,PayPal,1945.65
+15,16,Debit Card,1576.46
+16,18,Credit Card,4545.77
+17,19,PayPal,792.51
+18,20,Debit Card,3672.47
+19,21,Bank Transfer,1224.25
+20,22,Bank Transfer,517.38
+21,23,Store Credit,446.64
+22,24,Debit Card,1065.17
+23,25,Debit Card,4072.43
+24,26,Credit Card,740.49
+25,27,PayPal,2722.14
+26,28,Debit Card,1753.5
+27,29,PayPal,1369.37
+28,30,Debit Card,2087.94
+29,31,Bank Transfer,438.17
+30,32,Credit Card,194.26
+31,33,Credit Card,4045.69
+32,34,PayPal,3861.5
+33,35,Bank Transfer,3205.51
+34,36,Credit Card,3151.28
+35,37,Bank Transfer,841.24
+36,39,Credit Card,3178.36
+37,40,Store Credit,1682.16
+38,41,PayPal,2901.74
+39,42,PayPal,1555.63
+40,43,Credit Card,3829.57
+41,44,Store Credit,1340.19
+42,45,Credit Card,2817.88
+43,46,Bank Transfer,732.56
+44,47,Bank Transfer,2789.97
+45,48,PayPal,1689.55
+46,49,Store Credit,1395.48
+47,50,Bank Transfer,2689.87
+48,51,Credit Card,1458.68
+49,52,Credit Card,776.35
+50,53,Store Credit,3053.14
+51,54,PayPal,415.18
+52,55,Bank Transfer,2087.25
+53,56,Bank Transfer,2681.74
+54,57,PayPal,3502.04
+55,58,Store Credit,930.32
+56,59,Store Credit,3607.08
+57,60,Bank Transfer,397.34
+58,61,Bank Transfer,120.78
+59,62,Debit Card,3655.36
+60,63,Bank Transfer,4002.69
+61,64,PayPal,388.15
+62,65,PayPal,1938.12
+63,66,PayPal,1216.77
+64,67,Bank Transfer,1896.4
+65,68,Bank Transfer,2133.99
+66,69,Store Credit,2282.27
+67,70,Bank Transfer,1151.28
+68,71,Credit Card,3220.04
+69,72,PayPal,3422.88
+70,73,Debit Card,1107.12
+71,74,Debit Card,1651.34
+72,75,Store Credit,1379.14
+73,76,Bank Transfer,2539.58
+74,77,Store Credit,2846.07
+75,78,Credit Card,2538.5
+76,79,PayPal,187.34
+77,80,Bank Transfer,1773.06
+78,81,Store Credit,4780.76
+79,82,Bank Transfer,613.77
+80,83,PayPal,488.68
+81,84,Credit Card,425.26
+82,85,PayPal,2408.0
+83,86,Bank Transfer,2531.5
+84,87,Store Credit,1339.92
+85,88,Debit Card,610.6
+86,89,Bank Transfer,1853.5
+87,91,PayPal,3866.66
+88,92,Debit Card,749.06
+89,93,Store Credit,631.28
+90,94,Bank Transfer,82.37
+91,95,Debit Card,1047.44
+92,96,Debit Card,1108.25
+93,97,Store Credit,1587.46
+94,98,Credit Card,4021.45
+95,99,Debit Card,1591.29
+96,100,Store Credit,4799.36
+97,101,Debit Card,1294.96
+98,103,Store Credit,1343.73
+99,104,Debit Card,1850.74
+100,105,Store Credit,1514.94
+101,106,Store Credit,2278.77
+102,107,PayPal,3349.93
+103,108,Debit Card,3383.89
+104,109,Bank Transfer,2678.12
+105,110,Debit Card,383.95
+106,111,Store Credit,395.74
+107,112,Bank Transfer,3254.35
+108,113,Debit Card,1127.03
+109,114,Bank Transfer,2107.9
+110,116,Bank Transfer,1277.31
+111,117,Bank Transfer,1086.19
+112,118,Credit Card,972.57
+113,120,Credit Card,438.17
+114,122,Credit Card,2843.78
+115,123,Debit Card,1832.43
+116,125,Bank Transfer,1527.16
+117,126,Credit Card,3614.95
+118,127,Credit Card,1063.68
+119,128,PayPal,767.22
+120,129,Bank Transfer,892.42
+121,131,Store Credit,3106.32
+122,132,PayPal,3047.88
+123,133,PayPal,2234.58
+124,134,Credit Card,1614.05
+125,135,Credit Card,2068.4
+126,136,Store Credit,1500.42
+127,137,Store Credit,1635.25
+128,139,Debit Card,4462.07
+129,140,PayPal,2037.28
+130,141,Store Credit,2599.64
+131,142,Bank Transfer,2549.37
+132,143,Store Credit,4040.13
+133,144,Debit Card,2404.18
+134,146,PayPal,1525.68
+135,147,Credit Card,1325.7
+136,149,PayPal,1441.8
+137,150,Debit Card,3745.97
+138,152,Debit Card,3495.15
+139,153,Store Credit,532.2
+140,154,Store Credit,3322.19
+141,155,Bank Transfer,2029.95
+142,156,PayPal,1817.67
+143,157,PayPal,4209.76
+144,158,Credit Card,858.89
+145,159,Credit Card,114.37
+146,160,PayPal,1116.39
+147,161,PayPal,2464.05
+148,163,PayPal,2219.68
+149,164,PayPal,4393.46
+150,165,Debit Card,194.26
+151,166,Store Credit,3101.24
+152,167,Store Credit,2935.08
+153,168,Credit Card,2526.34
+154,169,Debit Card,1545.36
+155,170,Bank Transfer,2656.86
+156,171,PayPal,123.02
+157,172,Debit Card,760.55
+158,173,PayPal,164.21
+159,174,Credit Card,1140.32
+160,176,Bank Transfer,3221.09
+161,177,PayPal,341.27
+162,178,Debit Card,310.92
+163,179,Store Credit,1840.21
+164,180,Store Credit,1127.48
+165,181,Credit Card,2191.73
+166,182,PayPal,2192.32
+167,183,Credit Card,196.57
+168,185,Store Credit,1431.12
+169,186,PayPal,87.26
+170,187,Store Credit,637.94
+171,188,Store Credit,2428.21
+172,189,Credit Card,4216.83
+173,190,Credit Card,3093.43
+174,191,Debit Card,2391.41
+175,192,Bank Transfer,4444.95
+176,193,PayPal,1519.54
+177,194,Bank Transfer,3814.27
+178,195,Debit Card,1679.28
+179,196,Bank Transfer,2763.74
+180,197,Debit Card,656.99
+181,198,Bank Transfer,2902.89
+182,199,PayPal,797.52
+183,200,Store Credit,1785.31
+184,201,Bank Transfer,3465.85
+185,202,Debit Card,2605.12
+186,203,Credit Card,1986.24
+187,204,Credit Card,2047.67
+188,205,Credit Card,4288.89
+189,207,Bank Transfer,334.66
+190,208,Store Credit,420.62
+191,209,Bank Transfer,2082.0
+192,210,Store Credit,3089.84
+193,211,Store Credit,2584.3
+194,213,Credit Card,3069.79
+195,214,PayPal,79.12
+196,215,PayPal,2201.07
+197,216,Bank Transfer,343.11
+198,217,PayPal,3491.47
+199,218,Credit Card,109.41
+200,219,Debit Card,1408.12
+201,220,Credit Card,1362.53
+202,221,Bank Transfer,3169.7
+203,222,Store Credit,1419.13
+204,223,Credit Card,1142.56
+205,224,Bank Transfer,1318.38
+206,225,PayPal,1061.36
+207,227,Debit Card,463.29
+208,229,PayPal,1658.75
+209,230,PayPal,1537.53
+210,231,Bank Transfer,446.72
+211,232,Debit Card,1373.36
+212,233,PayPal,1064.49
+213,234,PayPal,1173.66
+214,235,Credit Card,1669.95
+215,239,Credit Card,1107.0
+216,240,Bank Transfer,2084.86
+217,241,Debit Card,581.67
+218,242,Credit Card,1193.4
+219,243,Credit Card,340.83
+220,245,PayPal,271.5
+221,246,Debit Card,2848.56
+222,247,Store Credit,48.79
+223,248,Debit Card,1025.97
+224,251,Debit Card,488.68
+225,252,PayPal,4951.82
+226,253,Debit Card,4127.93
+227,254,Bank Transfer,927.06
+228,255,Credit Card,760.14
+229,256,Credit Card,2920.86
+230,257,Credit Card,1245.43
+231,258,Credit Card,1240.2
+232,259,Debit Card,5437.35
+233,260,Debit Card,2673.74
+234,261,Credit Card,1800.04
+235,262,PayPal,872.34
+236,263,Credit Card,2264.73
+237,264,PayPal,2536.02
+238,265,PayPal,1337.84
+239,267,PayPal,1798.16
+240,268,Store Credit,3837.38
+241,269,Store Credit,2135.33
+242,271,Bank Transfer,1379.0
+243,272,PayPal,2608.67
+244,274,Credit Card,1466.4
+245,276,Store Credit,2605.24
+246,277,Bank Transfer,3853.76
+247,278,Store Credit,2187.07
+248,280,Bank Transfer,2714.43
+249,281,Bank Transfer,3798.05
+250,282,Bank Transfer,719.0
+251,283,Bank Transfer,2519.9
+252,284,Credit Card,1113.7
+253,285,Store Credit,2046.34
+254,286,Store Credit,997.28
+255,287,Credit Card,2993.5
+256,289,Bank Transfer,1374.84
+257,290,Store Credit,3476.08
+258,291,Bank Transfer,1035.06
+259,292,Bank Transfer,427.11
+260,293,Credit Card,2807.58
+261,295,Bank Transfer,529.66
+262,296,Store Credit,2183.36
+263,297,Store Credit,4619.66
+264,298,Debit Card,2908.71
+265,299,Debit Card,215.7
+266,300,Credit Card,347.82
+267,301,Debit Card,3271.51
+268,302,Credit Card,3606.35
+269,303,Debit Card,2331.19
+270,304,Store Credit,98.83
+271,305,PayPal,848.84
+272,306,PayPal,3072.93
+273,307,Store Credit,6293.08
+274,308,Bank Transfer,1389.18
+275,309,Bank Transfer,1655.82
+276,310,Bank Transfer,3424.14
+277,311,Debit Card,1728.25
+278,313,PayPal,4324.71
+279,314,Store Credit,4097.95
+280,315,Store Credit,930.32
+281,316,Store Credit,4995.34
+282,317,Credit Card,1428.45
+283,318,Store Credit,425.26
+284,319,PayPal,2486.42
+285,320,Store Credit,2060.17
+286,321,Store Credit,3510.88
+287,322,Bank Transfer,461.19
+288,323,Debit Card,1085.96
+289,324,Credit Card,1847.88
+290,325,Credit Card,923.21
+291,326,Credit Card,998.36
+292,328,Credit Card,2523.03
+293,329,Debit Card,289.2
+294,330,Debit Card,478.84
+295,331,Store Credit,1340.41
+296,332,Store Credit,1403.21
+297,333,Credit Card,1303.28
+298,334,Credit Card,3180.28
+299,335,Bank Transfer,1266.4
+300,336,Credit Card,1027.14
+301,337,Bank Transfer,1915.5
+302,338,Debit Card,130.89
+303,339,Store Credit,3685.41
+304,340,Store Credit,169.52
+305,341,Credit Card,869.94
+306,342,Store Credit,2716.7
+307,343,Debit Card,2213.9
+308,344,PayPal,920.1
+309,345,PayPal,324.19
+310,346,PayPal,2054.95
+311,347,Credit Card,2311.76
+312,348,Store Credit,4183.29
+313,349,Store Credit,685.23
+314,350,PayPal,3801.08
+315,351,Bank Transfer,446.72
+316,352,Credit Card,4000.43
+317,353,Debit Card,4106.05
+318,354,PayPal,2270.48
+319,355,Debit Card,4907.36
+320,356,Credit Card,2235.53
+321,357,Store Credit,374.68
+322,358,Bank Transfer,2734.23
+323,359,Bank Transfer,1198.48
+324,361,PayPal,613.87
+325,362,PayPal,2396.56
+326,363,Bank Transfer,1314.51
+327,364,Store Credit,2597.74
+328,365,Credit Card,1399.72
+329,366,PayPal,395.32
+330,367,Credit Card,847.28
+331,368,PayPal,1412.42
+332,369,Credit Card,977.36
+333,370,Credit Card,2279.92
+334,371,Credit Card,2686.65
+335,372,Bank Transfer,2708.87
+336,373,Bank Transfer,834.79
+337,374,Debit Card,2629.29
+338,375,Store Credit,153.73
+339,376,Store Credit,2223.32
+340,377,Store Credit,613.66
+341,378,Store Credit,1063.81
+342,380,Store Credit,970.48
+343,381,Credit Card,2429.3
+344,382,PayPal,3094.42
+345,384,Store Credit,1604.5
+346,385,PayPal,1137.08
+347,387,PayPal,858.94
+348,388,Bank Transfer,1933.54
+349,389,PayPal,1095.22
+350,390,Debit Card,677.21
+351,391,Bank Transfer,3601.92
+352,392,Store Credit,1277.64
+353,393,Debit Card,1747.5
+354,394,Credit Card,1367.93
+355,395,PayPal,1613.34
+356,396,PayPal,1872.68
+357,397,Bank Transfer,2804.1
+358,398,PayPal,2676.94
+359,399,Debit Card,786.6
+360,401,Store Credit,295.88
+361,402,Credit Card,4083.32
+362,403,PayPal,419.09
+363,404,PayPal,2238.42
+364,405,Debit Card,2089.74
+365,406,Credit Card,2342.24
+366,407,Credit Card,125.26
+367,408,PayPal,3423.4
+368,409,Store Credit,2781.31
+369,410,Debit Card,1468.96
+370,411,Debit Card,2438.1
+371,412,PayPal,1677.06
+372,413,PayPal,1002.16
+373,414,Bank Transfer,1226.01
+374,415,Credit Card,2518.75
+375,416,Debit Card,1076.19
+376,417,Credit Card,2610.78
+377,418,Credit Card,3288.29
+378,419,Debit Card,3733.78
+379,420,PayPal,5042.87
+380,421,PayPal,392.05
+381,422,Bank Transfer,2068.56
+382,424,PayPal,1567.76
+383,425,Store Credit,1128.82
+384,426,Debit Card,4558.9
+385,427,PayPal,1049.79
+386,428,Store Credit,2967.57
+387,429,PayPal,725.71
+388,430,PayPal,561.67
+389,431,Bank Transfer,604.66
+390,432,Store Credit,246.89
+391,433,Store Credit,2257.65
+392,434,PayPal,1820.93
+393,435,Store Credit,3126.04
+394,436,Debit Card,3825.41
+395,437,Bank Transfer,1753.3
+396,438,Credit Card,3133.91
+397,439,Bank Transfer,1358.27
+398,440,PayPal,2628.19
+399,441,PayPal,3026.37
+400,442,Debit Card,3551.51
+401,443,PayPal,1152.5
+402,444,Bank Transfer,809.69
+403,445,Credit Card,2044.92
+404,446,Store Credit,998.74
+405,447,Debit Card,4943.76
+406,448,PayPal,43.64
+407,450,PayPal,3943.04
+408,451,Store Credit,3791.73
+409,452,Bank Transfer,2246.06
+410,453,Credit Card,1277.83
+411,454,Debit Card,2770.41
+412,455,PayPal,1445.97
+413,456,Debit Card,1296.2
+414,457,Bank Transfer,657.9
+415,458,Bank Transfer,1365.52
+416,459,PayPal,2971.84
+417,461,PayPal,4426.85
+418,462,Bank Transfer,2595.04
+419,464,Bank Transfer,392.05
+420,465,Debit Card,1755.0
+421,466,Debit Card,3996.08
+422,467,Debit Card,917.45
+423,468,Store Credit,21.82
+424,469,Credit Card,1397.06
+425,470,Debit Card,1440.09
+426,471,PayPal,3362.71
+427,472,Credit Card,873.88
+428,473,PayPal,2259.3
+429,474,Bank Transfer,4213.17
+430,475,PayPal,596.49
+431,476,Bank Transfer,2370.04
+432,477,Debit Card,3346.37
+433,478,Bank Transfer,2139.56
+434,480,Debit Card,1622.36
+435,481,PayPal,97.56
+436,482,Credit Card,2143.86
+437,483,Credit Card,2968.64
+438,484,PayPal,1552.29
+439,485,PayPal,3714.24
+440,486,Debit Card,776.07
+441,487,Debit Card,591.76
+442,488,Bank Transfer,2815.33
+443,489,Bank Transfer,3822.02
+444,490,Store Credit,1510.38
+445,491,Store Credit,1465.54
+446,492,Bank Transfer,1047.42
+447,493,PayPal,3970.06
+448,494,PayPal,1450.23
+449,495,Credit Card,3345.41
+450,496,Debit Card,3274.35
+451,497,Store Credit,906.99
+452,498,Debit Card,2864.23
+453,499,Bank Transfer,4781.05
+454,500,Debit Card,749.36
+455,502,PayPal,1266.63
+456,503,Credit Card,3572.34
+457,504,Bank Transfer,2124.57
+458,505,Store Credit,1670.28
+459,506,PayPal,2300.26
+460,508,Store Credit,895.05
+461,509,Bank Transfer,1615.71
+462,510,Bank Transfer,2335.52
+463,513,Store Credit,1697.68
+464,514,Bank Transfer,2031.44
+465,515,Bank Transfer,1094.4
+466,516,Credit Card,1221.06
+467,517,PayPal,1533.38
+468,518,PayPal,2326.84
+469,519,Bank Transfer,2436.01
+470,520,Store Credit,450.4
+471,521,Credit Card,2387.91
+472,522,Credit Card,2794.47
+473,523,Debit Card,2952.92
+474,524,Store Credit,2144.23
+475,525,Credit Card,1736.81
+476,526,PayPal,754.87
+477,528,Store Credit,2496.03
+478,530,Debit Card,998.73
+479,531,Credit Card,2164.44
+480,532,Debit Card,428.34
+481,533,Store Credit,977.36
+482,534,Credit Card,653.62
+483,535,Debit Card,536.12
+484,537,Credit Card,2785.04
+485,538,Debit Card,749.36
+486,539,PayPal,1322.69
+487,540,Debit Card,197.66
+488,541,Debit Card,3535.91
+489,542,Debit Card,1292.12
+490,544,Bank Transfer,4411.71
+491,545,Bank Transfer,2194.41
+492,546,Credit Card,3097.62
+493,547,Bank Transfer,1450.1
+494,548,Store Credit,2732.1
+495,549,Credit Card,1183.52
+496,550,Bank Transfer,2730.2
+497,551,PayPal,62.63
+498,552,Store Credit,3112.98
+499,553,Store Credit,1183.32
+500,554,Debit Card,3087.52
+501,555,Store Credit,1812.0
+502,556,Credit Card,587.24
+503,557,PayPal,1016.33
+504,558,Bank Transfer,2024.72
+505,559,Credit Card,523.6
+506,560,Credit Card,3068.69
+507,561,Credit Card,1261.26
+508,562,Store Credit,1901.88
+509,563,Store Credit,1491.22
+510,564,PayPal,525.65
+511,565,Bank Transfer,976.44
+512,566,PayPal,1126.21
+513,567,PayPal,1415.57
+514,568,Store Credit,1975.55
+515,569,Store Credit,976.26
+516,570,Store Credit,1099.8
+517,571,Credit Card,3138.27
+518,572,Bank Transfer,836.61
+519,573,PayPal,3402.27
+520,574,Credit Card,1382.78
+521,575,PayPal,3557.89
+522,576,Bank Transfer,1847.21
+523,578,Debit Card,1977.53
+524,580,Debit Card,5215.55
+525,581,Credit Card,1350.28
+526,582,Debit Card,1686.22
+527,583,Bank Transfer,1262.43
+528,584,Store Credit,446.72
+529,585,Debit Card,399.59
+530,586,Bank Transfer,1359.29
+531,587,Store Credit,1449.54
+532,588,PayPal,1023.81
+533,590,Debit Card,483.76
+534,591,PayPal,273.19
+535,592,PayPal,952.63
+536,593,PayPal,155.48
+537,594,Debit Card,1782.34
+538,596,Debit Card,1814.52
+539,597,Bank Transfer,1900.17
+540,599,Debit Card,1174.42
+541,600,Store Credit,4090.75
+542,601,Credit Card,1524.33
+543,602,PayPal,1783.47
+544,603,Bank Transfer,2284.34
+545,604,Bank Transfer,564.64
+546,605,Credit Card,273.68
+547,606,Credit Card,2488.36
+548,608,Bank Transfer,915.9
+549,610,Bank Transfer,2202.97
+550,612,Store Credit,4911.32
+551,614,Debit Card,2641.35
+552,615,Bank Transfer,2560.8
+553,616,Credit Card,629.46
+554,617,Credit Card,2740.34
+555,618,PayPal,1363.82
+556,620,PayPal,2659.08
+557,621,PayPal,2733.41
+558,622,Store Credit,2546.38
+559,623,Credit Card,3938.71
+560,624,PayPal,3974.97
+561,625,PayPal,341.99
+562,626,PayPal,1612.77
+563,627,Store Credit,1559.28
+564,628,Bank Transfer,1466.4
+565,629,Credit Card,4926.46
+566,631,Bank Transfer,4638.27
+567,632,Store Credit,395.32
+568,633,Store Credit,791.22
+569,634,Store Credit,1340.68
+570,635,Debit Card,472.82
+571,636,PayPal,903.64
+572,637,Debit Card,2268.33
+573,638,Debit Card,1348.22
+574,639,Debit Card,3197.92
+575,640,Bank Transfer,3423.01
+576,641,Store Credit,501.01
+577,642,Bank Transfer,3378.4
+578,643,Debit Card,2006.68
+579,644,PayPal,104.19
+580,645,Debit Card,1074.85
+581,646,Store Credit,2188.21
+582,647,PayPal,3607.46
+583,648,Bank Transfer,1023.81
+584,649,Debit Card,1401.88
+585,650,PayPal,4150.19
+586,651,PayPal,2296.11
+587,652,Bank Transfer,3296.88
+588,653,PayPal,1722.62
+589,654,Bank Transfer,909.68
+590,655,Bank Transfer,560.6
+591,656,Debit Card,4607.88
+592,657,Credit Card,136.84
+593,658,Debit Card,1079.01
+594,659,Bank Transfer,3646.39
+595,660,Credit Card,1270.92
+596,662,Debit Card,1724.19
+597,663,PayPal,3582.14
+598,664,Debit Card,1956.78
+599,665,Store Credit,1653.98
+600,666,Store Credit,454.47
+601,667,Debit Card,2036.32
+602,668,Bank Transfer,2522.16
+603,669,Bank Transfer,1611.56
+604,671,Debit Card,1950.15
+605,672,Store Credit,1968.05
+606,673,PayPal,3621.87
+607,674,PayPal,649.54
+608,675,Debit Card,2221.52
+609,676,Store Credit,2344.4
+610,677,Bank Transfer,1684.89
+611,678,PayPal,2724.62
+612,679,Store Credit,1757.88
+613,680,Debit Card,1582.75
+614,681,PayPal,4891.71
+615,682,Bank Transfer,2191.51
+616,683,Bank Transfer,488.87
+617,684,Store Credit,2648.55
+618,685,Credit Card,1675.7
+619,686,Credit Card,3216.06
+620,687,Bank Transfer,2409.61
+621,688,Store Credit,1430.76
+622,689,Credit Card,2101.73
+623,690,Debit Card,743.78
+624,691,PayPal,2837.94
+625,692,PayPal,1939.71
+626,693,PayPal,1854.42
+627,694,Debit Card,589.71
+628,695,Store Credit,407.25
+629,696,Credit Card,2792.37
+630,697,Store Credit,2954.04
+631,698,Bank Transfer,2133.31
+632,699,Credit Card,2501.04
+633,700,Store Credit,5306.76
+634,701,Bank Transfer,1397.14
+635,702,Credit Card,2839.0
+636,703,Debit Card,3000.01
+637,704,Bank Transfer,359.13
+638,705,Store Credit,3832.37
+639,706,Credit Card,2645.98
+640,707,Credit Card,1044.72
+641,708,Bank Transfer,97.56
+642,709,Credit Card,395.74
+643,710,Bank Transfer,3752.28
+644,711,Debit Card,1858.27
+645,712,PayPal,1758.78
+646,713,Store Credit,1240.2
+647,715,Bank Transfer,3127.42
+648,717,Credit Card,491.34
+649,718,Credit Card,2288.81
+650,719,Bank Transfer,1901.09
+651,720,Bank Transfer,682.54
+652,721,PayPal,1756.61
+653,724,Store Credit,439.46
+654,725,Credit Card,423.64
+655,726,Store Credit,1736.36
+656,727,Debit Card,893.28
+657,728,PayPal,2196.98
+658,730,Credit Card,4083.64
+659,731,Debit Card,3236.39
+660,732,Credit Card,1188.37
+661,733,Bank Transfer,1610.66
+662,734,PayPal,887.64
+663,735,Store Credit,1600.31
+664,736,PayPal,1048.17
+665,737,PayPal,819.38
+666,739,Bank Transfer,1644.25
+667,740,Credit Card,761.26
+668,741,Credit Card,206.98
+669,742,Credit Card,3836.77
+670,743,Debit Card,2361.73
+671,745,Bank Transfer,902.65
+672,746,Credit Card,1641.19
+673,747,PayPal,1473.7
+674,748,Credit Card,3271.13
+675,749,Debit Card,5606.08
+676,750,Bank Transfer,1695.05
+677,751,Bank Transfer,721.46
+678,752,Debit Card,980.06
+679,753,PayPal,890.97
+680,754,Bank Transfer,2674.68
+681,756,Debit Card,3302.08
+682,757,Store Credit,964.88
+683,758,Bank Transfer,2038.37
+684,759,PayPal,395.74
+685,760,Bank Transfer,1105.7
+686,761,Debit Card,777.48
+687,762,Bank Transfer,2336.58
+688,763,Store Credit,531.68
+689,764,Debit Card,989.91
+690,765,Credit Card,425.88
+691,766,Credit Card,1428.11
+692,767,Credit Card,4613.24
+693,768,PayPal,439.46
+694,769,PayPal,3472.62
+695,770,Debit Card,1694.17
+696,771,PayPal,1084.63
+697,772,Credit Card,4598.29
+698,774,Bank Transfer,3793.42
+699,775,PayPal,881.41
+700,776,Store Credit,167.33
+701,777,Bank Transfer,249.05
+702,778,Debit Card,937.81
+703,779,Store Credit,2380.96
+704,780,PayPal,1671.87
+705,783,Credit Card,250.52
+706,784,Debit Card,500.45
+707,785,Debit Card,777.26
+708,786,Store Credit,1446.51
+709,787,Credit Card,3353.4
+710,788,PayPal,4116.26
+711,789,Bank Transfer,1925.43
+712,790,Store Credit,2112.09
+713,791,PayPal,2844.95
+714,792,Debit Card,3807.76
+715,793,Bank Transfer,483.76
+716,794,Bank Transfer,4118.51
+717,795,Credit Card,2643.33
+718,797,Credit Card,959.92
+719,798,Credit Card,1165.72
+720,799,Store Credit,2749.36
+721,800,Store Credit,2774.86
+722,801,PayPal,4583.58
+723,802,Debit Card,1394.28
+724,804,Debit Card,2560.29
+725,805,Store Credit,245.94
+726,806,PayPal,1245.54
+727,807,Credit Card,3824.06
+728,809,Debit Card,2464.8
+729,810,Bank Transfer,1332.35
+730,811,PayPal,1247.14
+731,812,Store Credit,2680.93
+732,814,PayPal,2965.35
+733,815,Credit Card,415.18
+734,816,Bank Transfer,3018.6
+735,817,Credit Card,1221.2
+736,818,Store Credit,2007.07
+737,819,Credit Card,2349.41
+738,820,Credit Card,884.28
+739,821,Credit Card,2702.84
+740,822,Credit Card,1749.56
+741,823,Credit Card,433.97
+742,824,Bank Transfer,494.85
+743,825,Debit Card,3564.07
+744,826,Store Credit,2745.04
+745,827,Store Credit,114.37
+746,828,PayPal,947.55
+747,829,Debit Card,4257.33
+748,830,Store Credit,874.46
+749,831,Debit Card,2065.4
+750,832,Bank Transfer,79.12
+751,833,Store Credit,460.6
+752,834,Credit Card,759.93
+753,835,Credit Card,1440.09
+754,836,Credit Card,457.48
+755,837,Credit Card,2400.31
+756,838,Credit Card,3348.03
+757,839,Credit Card,1172.53
+758,840,Store Credit,146.82
+759,841,Store Credit,2345.67
+760,842,Store Credit,60.39
+761,843,Bank Transfer,786.28
+762,844,Store Credit,2248.98
+763,845,Debit Card,1440.09
+764,846,Credit Card,3520.99
+765,847,Store Credit,1092.76
+766,848,Store Credit,3329.35
+767,849,Store Credit,2173.78
+768,851,Store Credit,1018.81
+769,852,Bank Transfer,1863.62
+770,853,PayPal,3240.77
+771,854,Store Credit,4070.26
+772,855,Credit Card,1018.92
+773,856,Bank Transfer,1201.99
+774,857,PayPal,1040.3
+775,858,Store Credit,944.19
+776,859,Store Credit,3930.2
+777,860,Bank Transfer,581.67
+778,861,Bank Transfer,1225.22
+779,862,PayPal,1064.53
+780,863,Debit Card,812.93
+781,864,Store Credit,2389.95
+782,865,PayPal,2336.83
+783,866,Store Credit,612.94
+784,867,Credit Card,492.63
+785,868,Store Credit,972.57
+786,869,Credit Card,2164.47
+787,870,Bank Transfer,1673.46
+788,871,Store Credit,2384.17
+789,872,Credit Card,2039.0
+790,873,Credit Card,68.42
+791,874,Store Credit,1514.11
+792,875,Credit Card,223.42
+793,876,PayPal,2462.9
+794,877,Bank Transfer,777.04
+795,878,Credit Card,287.5
+796,879,Store Credit,1814.52
+797,881,Bank Transfer,896.35
+798,882,Debit Card,698.1
+799,883,Credit Card,2189.6
+800,884,Bank Transfer,2793.0
+801,885,Bank Transfer,1963.24
+802,886,Store Credit,1786.56
+803,887,Debit Card,978.52
+804,888,PayPal,1302.78
+805,889,Debit Card,1865.31
+806,890,Credit Card,2755.13
+807,891,PayPal,2377.36
+808,892,PayPal,3776.9
+809,893,PayPal,1305.82
+810,894,PayPal,3286.4
+811,895,Bank Transfer,1003.0
+812,896,Store Credit,893.68
+813,897,Bank Transfer,1058.04
+814,898,PayPal,1327.57
+815,899,PayPal,1909.34
+816,900,Credit Card,2152.86
+817,901,Credit Card,1766.06
+818,902,PayPal,1023.81
+819,903,Debit Card,1395.66
+820,904,Credit Card,1919.84
+821,905,Bank Transfer,2366.38
+822,906,Debit Card,1207.29
+823,907,Bank Transfer,1511.0
+824,908,Debit Card,1277.03
+825,909,Credit Card,1880.76
+826,910,PayPal,2519.29
+827,911,Debit Card,2355.47
+828,912,Store Credit,2413.21
+829,913,Credit Card,2366.25
+830,914,Debit Card,1584.84
+831,915,Credit Card,1165.62
+832,916,Debit Card,455.46
+833,917,Store Credit,1424.97
+834,918,Debit Card,1286.93
+835,919,Store Credit,3030.73
+836,920,Store Credit,189.36
+837,921,Store Credit,4124.81
+838,922,Store Credit,2024.62
+839,923,Credit Card,1428.14
+840,924,Debit Card,2447.79
+841,925,Bank Transfer,210.31
+842,926,PayPal,310.05
+843,927,Credit Card,649.58
+844,928,Store Credit,713.87
+845,929,PayPal,1630.57
+846,931,Credit Card,569.22
+847,932,Bank Transfer,930.32
+848,933,Debit Card,2022.12
+849,934,Store Credit,1559.77
+850,935,Bank Transfer,2385.56
+851,936,Debit Card,215.7
+852,937,Bank Transfer,3181.2
+853,938,Credit Card,1857.31
+854,939,PayPal,3050.28
+855,940,Bank Transfer,2992.8
+856,941,Debit Card,1258.92
+857,942,Store Credit,540.33
+858,943,Credit Card,3296.22
+859,944,PayPal,3121.2
+860,945,Store Credit,1013.46
+861,947,Store Credit,187.34
+862,948,Debit Card,179.75
+863,949,Credit Card,1351.97
+864,950,Bank Transfer,4278.96
+865,951,Debit Card,2689.06
+866,952,Credit Card,2729.53
+867,954,Debit Card,3764.07
+868,955,PayPal,529.66
+869,956,Debit Card,1405.3
+870,957,Bank Transfer,271.5
+871,958,Credit Card,2458.35
+872,959,Bank Transfer,1399.97
+873,960,Store Credit,615.42
+874,961,Credit Card,648.38
+875,962,Debit Card,3301.25
+876,963,Debit Card,3988.87
+877,964,Debit Card,1208.09
+878,965,Credit Card,620.94
+879,967,Debit Card,1987.95
+880,968,Debit Card,2726.0
+881,969,Debit Card,2103.16
+882,970,Debit Card,2678.34
+883,971,Store Credit,1268.43
+884,972,Credit Card,523.52
+885,973,PayPal,4135.28
+886,974,Debit Card,603.25
+887,975,PayPal,345.78
+888,976,Debit Card,1984.5
+889,977,Credit Card,1285.91
+890,978,Debit Card,442.27
+891,979,Debit Card,2130.08
+892,980,PayPal,1506.74
+893,982,Credit Card,3927.57
+894,983,Debit Card,960.06
+895,984,Store Credit,3079.7
+896,985,PayPal,501.08
+897,986,Store Credit,1441.59
+898,987,Store Credit,2369.85
+899,988,Credit Card,1704.99
+900,990,Bank Transfer,2043.51
+901,991,Credit Card,1499.05
+902,992,Bank Transfer,1368.25
+903,993,PayPal,2452.74
+904,994,Credit Card,2410.47
+905,995,Bank Transfer,621.76
+906,996,PayPal,1320.73
+907,997,PayPal,1427.51
+908,998,Credit Card,5329.19
+909,999,Bank Transfer,475.8
+910,1000,Store Credit,985.24

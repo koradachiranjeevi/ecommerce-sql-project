@@ -1,0 +1,198 @@
+// ========================================================================
+// DAX MEASURES SPECIFICATION FOR POWER BI
+// Model: E-Commerce Sales Analytics Star Schema
+// Tables Referenced:
+//   - fact_sales (grain: order_item_id)
+//   - dim_date (continuous calendar table)
+//   - dim_products (product dimension)
+//   - dim_customers (customer dimension)
+//
+// Best Practice: Store all measures in a dedicated Measure Table (e.g. '_Measures')
+// in Power BI Desktop (Enter Data -> Table Name: '_Measures').
+// ========================================================================
+
+
+// ------------------------------------------------------------------------
+// 1. Total Revenue
+// Description: Total gross sales revenue across all transaction lines.
+// Format: Currency ($#,##0.00)
+// ------------------------------------------------------------------------
+Total Revenue = 
+SUM(fact_sales[revenue])
+
+
+// Alternative version if you want to strictly exclude cancelled orders:
+// Total Net Revenue = 
+// CALCULATE(
+//     SUM(fact_sales[revenue]),
+//     fact_sales[status] <> "Cancelled"
+// )
+
+
+// ------------------------------------------------------------------------
+// 2. Total Orders
+// Description: Count of unique order transactions.
+// Format: Whole Number (#,##0)
+// ------------------------------------------------------------------------
+Total Orders = 
+DISTINCTCOUNT(fact_sales[order_id])
+
+
+// ------------------------------------------------------------------------
+// 3. Units Sold
+// Description: Total cumulative quantity of product units sold.
+// Format: Whole Number (#,##0)
+// ------------------------------------------------------------------------
+Units Sold = 
+SUM(fact_sales[quantity])
+
+
+// ------------------------------------------------------------------------
+// 4. Average Order Value (AOV)
+// Description: Average monetary revenue generated per order.
+// Format: Currency ($#,##0.00)
+// ------------------------------------------------------------------------
+Average Order Value = 
+DIVIDE(
+    [Total Revenue],
+    [Total Orders],
+    0
+)
+
+
+// ------------------------------------------------------------------------
+// 5. Unique Customers
+// Description: Number of distinct customers who have placed at least one order.
+// Format: Whole Number (#,##0)
+// ------------------------------------------------------------------------
+Unique Customers = 
+DISTINCTCOUNT(fact_sales[customer_id])
+
+
+// ------------------------------------------------------------------------
+// 6. Repeat Customer Rate
+// Description: Proportion of purchasing customers who have placed more than 1 order.
+// Format: Percentage (0.0%)
+// ------------------------------------------------------------------------
+Repeat Customer Rate = 
+VAR CustomerOrders = 
+    ADDCOLUMNS(
+        VALUES(fact_sales[customer_id]),
+        "@OrderCount", CALCULATE(DISTINCTCOUNT(fact_sales[order_id]))
+    )
+VAR RepeatCustomerCount = 
+    COUNTROWS(
+        FILTER(
+            CustomerOrders,
+            [@OrderCount] > 1
+        )
+    )
+VAR TotalActiveCustomers = [Unique Customers]
+RETURN
+    DIVIDE(
+        RepeatCustomerCount,
+        TotalActiveCustomers,
+        0
+    )
+
+
+// ------------------------------------------------------------------------
+// 7. Revenue Previous Month
+// Description: Total Revenue calculated for the prior month using Time Intelligence.
+// Note: Requires dim_date to be marked as Date Table in Power BI.
+// Format: Currency ($#,##0.00)
+// ------------------------------------------------------------------------
+Revenue Previous Month = 
+CALCULATE(
+    [Total Revenue],
+    PREVIOUSMONTH(dim_date[Date])
+)
+
+
+// ------------------------------------------------------------------------
+// 8. Revenue MoM %
+// Description: Month-over-Month percentage growth in revenue.
+// Format: Percentage (+0.0%;-0.0%;0.0%)
+// ------------------------------------------------------------------------
+Revenue MoM % = 
+VAR PriorRevenue = [Revenue Previous Month]
+VAR CurrentRevenue = [Total Revenue]
+RETURN
+    IF(
+        NOT ISBLANK(PriorRevenue) && PriorRevenue > 0,
+        DIVIDE(
+            CurrentRevenue - PriorRevenue,
+            PriorRevenue,
+            0
+        ),
+        BLANK()
+    )
+
+
+// ------------------------------------------------------------------------
+// 9. Revenue YTD
+// Description: Year-to-Date cumulative revenue reset each January 1st.
+// Format: Currency ($#,##0.00)
+// ------------------------------------------------------------------------
+Revenue YTD = 
+TOTALYTD(
+    [Total Revenue],
+    dim_date[Date]
+)
+
+
+// ------------------------------------------------------------------------
+// 10. Top 10 Product Revenue Share
+// Description: Share of total revenue accounted for by the top 10 products.
+// Format: Percentage (0.0%)
+// ------------------------------------------------------------------------
+Top 10 Product Revenue Share = 
+VAR Top10ProductRevenue = 
+    CALCULATE(
+        [Total Revenue],
+        KEEPFILTERS(
+            TOPN(
+                10,
+                ALL(dim_products[product_id], dim_products[product_name]),
+                [Total Revenue],
+                DESC
+            )
+        )
+    )
+VAR TotalCatalogRevenue = 
+    CALCULATE(
+        [Total Revenue],
+        ALL(dim_products)
+    )
+RETURN
+    DIVIDE(
+        Top10ProductRevenue,
+        TotalCatalogRevenue,
+        0
+    )
+
+
+// ========================================================================
+// OPTIONAL HELPER MEASURES FOR DASHBOARD VISUALS
+// ========================================================================
+
+// Net Revenue (excluding Cancelled orders)
+Net Revenue = 
+CALCULATE(
+    [Total Revenue],
+    fact_sales[status] <> "Cancelled"
+)
+
+// Cancellation Rate
+Cancellation Rate = 
+VAR CancelledOrders = 
+    CALCULATE(
+        DISTINCTCOUNT(fact_sales[order_id]),
+        fact_sales[status] = "Cancelled"
+    )
+RETURN
+    DIVIDE(CancelledOrders, [Total Orders], 0)
+
+// Average Units Per Order
+Average Units Per Order = 
+DIVIDE([Units Sold], [Total Orders], 0)
